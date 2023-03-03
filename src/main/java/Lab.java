@@ -1,6 +1,7 @@
 
 
 public class Lab {
+    
     /**
      *
      * Let's try writing a for loop at the 'code here' point...
@@ -42,8 +43,12 @@ public class Lab {
     public String returnNumbers(int start, int end){
         String buildingString = "";
 
-//        code here
-
-        return buildingString;
+        for(int i=start;i<end;i++)
+{
+        
+        buildingString = buildingString + i+" " ;
+}
+return buildingString;
     }
+    
 }
